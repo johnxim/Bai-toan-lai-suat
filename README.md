@@ -5,8 +5,10 @@ using namespace std;
 int main()
 {
     double Nam;
-    double TienGui, TienKyVong, LaiSuat;
-    
+    double TienGui;
+    double TienKyVong;
+    double LaiSuat;
+
     cout << "Nhap so tien gui: ";
     cin >> TienGui;
 
@@ -16,9 +18,9 @@ int main()
     cout << "Nhap lai suat theo nam: ";
     cin >> LaiSuat;
 
-	Nam = log(TienKyVong/TienGui)/log(1+LaiSuat);
+    Nam = log(TienKyVong/TienGui)/log(1+LaiSuat);
 
-    cout << "So nam can thiet la: " << Nam << endl;
+    cout << "So nam can thiet de dat duoc so tien ky vong la: " << Nam << endl;
 	
     return 0;
 }
