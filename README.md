@@ -21,7 +21,7 @@ int main()
     	cin >> LaiSuat;
     	if (TienKyVong <= TienGui || TienKyVong <= 0 || TienGui <= 0 || LaiSuat <= 0)
     	{
-	     cout << "   Nhap sai du lieu,moi ban nhap lai.  " << endl;
+	    cout << "   Nhap sai du lieu,moi ban nhap lai.  " << endl;
     	}	
     }while(TienKyVong <= TienGui || TienKyVong <= 0 || TienGui<= 0 || LaiSuat <= 0);
 	
